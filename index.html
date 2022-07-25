@@ -13,7 +13,7 @@
     <!-- header  -->
     <header class="container">
         <!-- navbar  -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""
                         class="d-inline-block align-text-top"></a>
@@ -28,13 +28,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
 
 
@@ -44,7 +44,7 @@
             </div>
         </nav>
         <!-- slider start -->
-        <section class="mt-5">
+        <section class="container mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner  ">
                     <div class="carousel-item active bg-info  p-5">
@@ -152,7 +152,7 @@
         </div>
         <!-- categories end -->
         <!-- shoes section start  -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -202,7 +202,7 @@
         </section>
         <!-- shoes section end -->
         <!-- Backpack section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h2>BackPack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -251,8 +251,27 @@
             </div>
         </section>
         <!-- Backpack section end -->
+        <!-- subscribe star  -->
+        <section id="subscribe" style=" height: 300px;"
+            class="container rounded-3 d-flex justify-content-center align-items-center bg-info">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <P>Get updates on sales, specials and more</P>
+                <form>
+                    <div class="mb-1">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+
+        </section>
+        <!-- subscribe end -->
     </main>
     <!-- main end  -->
+    <footer class="mt-5 text-center">
+        <p><small>©2022. S M SHAFI. All rights reserved. Dhaka,Bangladesh</small></p>
+    </footer>
 
 
 
